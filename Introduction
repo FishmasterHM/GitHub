@@ -1,0 +1,8 @@
+echo "# GitHub" >> README.md
+git init                      初始化git控制
+git add README.md             将未知文件加入控制
+git commit -m "first commit"  本地commit 
+                              -m 加入注释
+                              -a 所有修改的被管理文件
+git remote add origin git@github.com:FishmasterHM/GitHub.git
+git push -u origin master  
